@@ -1,0 +1,75 @@
+/**
+ * author:shimin.chen.wb;
+ * time:2017/7/17;
+ * description:头部组件css;
+ */
+.wrapper {
+    width: 100%;
+    min-height: 100%;
+    background-color: #F2F4F8;
+}
+.top-bar {
+    padding-left: 20px;
+    height: 45px;
+    background-color: #404040;
+}
+.top-bar p {
+    height: 100%;
+    font-size: 20px;
+    color: #FFF;
+    line-height: 45px;
+}
+.user-massge {
+    position: relative;
+    margin-right: 10px;    
+    width: 120px;
+    height: 100%;
+    cursor: pointer;
+}
+.user-massge img {
+    margin: 11px 0;
+    width: 22px;
+    height: 22px;
+    border-radius: 12px;
+}
+.user-massge span {
+    display: inline-block;
+    margin-left: 10px;
+    max-width: 60px;
+    font-size: 12px;
+    color: #FFF;
+    line-height:45px; 
+}
+.top-bar input {
+    margin: 8px 10px 7px 0;
+    padding-left: 5px;
+    width: 145px;
+    height: 30px;
+    background-color: #FFF;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+.user-massge ul {
+    z-index: 999;
+    position: absolute;
+    top: 50px;
+    padding: 12px 18px;
+    width: 70px;
+    background-color: #fff;
+    border: 1px solid #e1e1e1;
+    -webkit-box-shadow: 0 0 16px rgba(0, 0, 0, 0.16);
+    -moz-box-shadow: 0 0 16px rgba(0, 0, 0, 0.16);
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.16);
+    text-align: center;
+    box-sizing: content-box;
+}
+
+.user-massge a {
+    display: block;
+    margin: 0;
+    /*width: 98px;*/
+    height: 36px;
+    line-height: 36px;
+    color: #333;
+}
